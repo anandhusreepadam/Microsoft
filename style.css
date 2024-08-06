@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+}
+
+nav p {
+    font-size: small;
+}
+
+nav pre {
+    font-size: small;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin-left: 80px;
+}
+
+.logo img {
+    width: 97px;
+    height: 20px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 390px;
+    margin-right: 80px;
+}
+
+.section-1 {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section-1 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.surface {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 57px;
+    left: 78px;
+    position: absolute;
+    width: 533.62px;
+    height: 332.4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.surface-bdy {
+    width: 437.62px;
+    height: 236.4px;
+}
+
+.new {
+    text-align: center;
+    padding: 2px 6px 9px 6px;
+    background-color: #feb902;
+    width: 44px;
+    height: 16px;
+    font-weight: 500;
+}
+
+.surface h1 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 80px;
+}
+
+.surface p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.surface button {
+    background-color: #0066b8;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 11px 12px 11px 12px;
+    margin-top: 30px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.icons img {
+    height: 42px;
+}
+
+.icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    top: 100px;
+}
+
+.icons-in {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+    left: 60px;
+    width: 1300px;
+    height: 870px;
+}
+
+.card {
+    background-color: #fff;
+    width: 303px;
+    height: 550px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 400px;
+    position: relative;
+
+}
+
+.card .new {
+    margin: 16px 0 0 24px;
+}
+
+.card h1 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .buttons {
+    background-color: #0066b8;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 11px 12px 11px 12px;
+    margin-left: 25px;
+    position: absolute;
+    bottom: 25px;
+
+}
+
+.first-btn {
+    background-color: #0066b8;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 11px 12px 11px 12px;
+    margin-left: 25px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.card-in {
+    width: 255px;
+    margin: 42px 0 0 25px;
+}
+
+.last-card {
+    margin: 0 0 0 25px;
+}
+
+.card pre {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(0, 103, 184);
+    position: absolute;
+    bottom: 25px;
+    margin-left: 25px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-4-in {
+    width: 1280px;
+    height: 481px;
+    position: relative;
+
+}
+
+.section-4-in img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.unlock {
+    width: 288px;
+    position: absolute;
+    left: 110px;
+    top: 71px;
+}
+
+.unlock h1 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 44px;
+}
+
+.unlock p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.unlock button {
+    background-color: #0066b8;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 11px 12px 11px 12px;
+    margin-top: 30px;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 1300px;
+    height: 444px;
+}
+
+.section-5 .card-in {
+    margin: 25px;
+
+}
+
+.section-5 .card {
+    height: 444px;
+}
+
+.busi {
+    margin: 110px 0 0 70px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.social {
+    margin: 140px 0 0 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 30px;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.back button {
+    background-color: #d9d9d9;
+    color: #000;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px 12px 12px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.footer-in {
+    width: 1280px;
+    height: 316px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+
+}
+
+.footer-in h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+}
+
+.footer-in p {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+    line-height: 35px;
+}
+.footer-base{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    height: 50px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 77px;
+    gap: 23px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 94px;
+    gap: 33px;
+}
