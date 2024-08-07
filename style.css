@@ -1,3 +1,4 @@
+/* Setting Default Font Segoe UI , Setting Cursor as Pointer for the whole Page */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ nav p {
 nav pre {
     font-size: small;
 }
-
+/* Logo side */
 .logo {
     display: flex;
     justify-content: space-around;
@@ -31,7 +32,7 @@ nav pre {
     width: 97px;
     height: 20px;
 }
-
+/* User login side */
 .user {
     display: flex;
     justify-content: space-around;
@@ -39,9 +40,8 @@ nav pre {
     width: 390px;
     margin-right: 80px;
 }
-
+/* Microsoft Surface Image Starts */
 .section-1 {
-
     width: 100%;
     height: 100%;
     position: relative;
@@ -50,9 +50,8 @@ nav pre {
 .section-1 img {
     width: 100%;
     height: 100%;
-
 }
-
+/* Image Over White Box */
 .surface {
     background-color: #fff;
     display: flex;
@@ -103,7 +102,7 @@ nav pre {
     padding: 11px 12px 11px 12px;
     margin-top: 30px;
 }
-
+/* Image Turner left right */
 .play {
     display: flex;
     justify-content: center;
@@ -111,7 +110,7 @@ nav pre {
     position: relative;
     top: 15px;
 }
-
+/* Microsoft,Xbox,Windows links and icons */
 .icons img {
     height: 42px;
 }
@@ -124,18 +123,18 @@ nav pre {
     top: 100px;
 }
 
-.icons a{
-    color:rgb(0, 103, 184);
+.icons a {
+    color: rgb(0, 103, 184);
     font-size: 16px;
     font-weight: 600;
-} 
+}
 
 .icons-in {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
+/* 4 Cards Section */
 .section-3 {
     display: flex;
     justify-content: space-around;
@@ -153,7 +152,6 @@ nav pre {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 400px;
     position: relative;
-
 }
 
 .card .new {
@@ -171,7 +169,6 @@ nav pre {
     font-weight: 400;
     line-height: 24px;
     margin-top: 15px;
-
 }
 
 .card img {
@@ -190,7 +187,6 @@ nav pre {
     margin-left: 25px;
     position: absolute;
     bottom: 25px;
-
 }
 
 .first-btn {
@@ -225,7 +221,7 @@ nav pre {
     bottom: 25px;
     margin-left: 25px;
 }
-
+/* Co pilot Image */
 .section-4 {
     display: flex;
     justify-content: center;
@@ -235,14 +231,11 @@ nav pre {
     width: 1280px;
     height: 481px;
     position: relative;
-
 }
 
 .section-4-in img {
     width: 100%;
     height: 100%;
-
-
 }
 
 .unlock {
@@ -276,7 +269,7 @@ nav pre {
     padding: 11px 12px 11px 12px;
     margin-top: 30px;
 }
-
+/* Small 4 cards */
 .section-5 {
     display: flex;
     justify-content: space-around;
@@ -301,7 +294,7 @@ nav pre {
     font-size: 37px;
     font-weight: 600;
 }
-
+/* Social Media Links */
 .social {
     margin: 140px 0 0 75px;
     display: flex;
@@ -313,7 +306,7 @@ nav pre {
 .social img {
     width: 30px;
 }
-
+/* Back to top Button */
 .back {
     display: flex;
     justify-content: flex-end;
@@ -334,7 +327,7 @@ nav pre {
     justify-content: space-around;
     gap: 12px;
 }
-
+/* footer and links */
 .footer {
     background-color: #f2f2f2;
     display: flex;
@@ -364,7 +357,8 @@ nav pre {
     color: rgb(110, 110, 110);
     line-height: 35px;
 }
-.footer-base{
+/* footer Base language and copyrghts */
+.footer-base {
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
@@ -374,13 +368,15 @@ nav pre {
     color: rgb(97, 97, 97);
     height: 50px;
 }
-.left{
+
+.left {
     display: flex;
     align-items: center;
     margin-left: 77px;
     gap: 23px;
 }
-.right{
+
+.right {
     display: flex;
     align-items: center;
     margin-right: 94px;
