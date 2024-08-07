@@ -124,6 +124,12 @@ nav pre {
     top: 100px;
 }
 
+.icons a{
+    color:rgb(0, 103, 184);
+    font-size: 16px;
+    font-weight: 600;
+} 
+
 .icons-in {
     display: flex;
     flex-direction: column;
